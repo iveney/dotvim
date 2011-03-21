@@ -22,3 +22,6 @@
 [submodule "bundle/mru"]
 	path = bundle/mru
 	url = https://github.com/vim-scripts/mru.vim.git
+[submodule "bundle/cocoa"]
+	path = bundle/cocoa
+	url = https://github.com/vim-scripts/cocoa.vim.git
