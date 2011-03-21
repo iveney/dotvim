@@ -16,3 +16,6 @@
 [submodule "bundle/OmniCppComplete"]
 	path = bundle/OmniCppComplete
 	url = https://github.com/vim-scripts/OmniCppComplete.git
+[submodule "tags/cppheader"]
+	path = tags/cppheader
+	url = https://github.com/vim-scripts/tags-for-std-cpp-STL-streams-....git
