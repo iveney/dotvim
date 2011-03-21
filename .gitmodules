@@ -19,3 +19,6 @@
 [submodule "tags/cppheader"]
 	path = tags/cppheader
 	url = https://github.com/vim-scripts/tags-for-std-cpp-STL-streams-....git
+[submodule "bundle/mru"]
+	path = bundle/mru
+	url = https://github.com/vim-scripts/mru.vim.git
