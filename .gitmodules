@@ -34,3 +34,6 @@
 [submodule "bundle/google.vim"]
 	path = bundle/google.vim
 	url = https://github.com/vim-scripts/google.vim.git
+[submodule "bundle/vim-preview"]
+	path = bundle/vim-preview
+	url = https://github.com/greyblake/vim-preview.git
