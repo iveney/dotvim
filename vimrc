@@ -250,3 +250,6 @@ set tags+=~/.vim/tags/cpp
 " Tabular mapping
 " Align the text to `='
 map <leader>t= :Tab/=<cr>
+
+" NERDTree mapping
+map <F3> :NERDTreeToggle<CR>
