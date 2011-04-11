@@ -253,3 +253,6 @@ map <leader>t= :Tab/=<cr>
 
 " NERDTree mapping
 map <F3> :NERDTreeToggle<CR>
+
+" map gundo
+map <F5> :GundoToggle<CR>
