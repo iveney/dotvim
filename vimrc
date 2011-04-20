@@ -257,3 +257,11 @@ map <F3> :NERDTreeToggle<CR>
 
 " map gundo
 map <F5> :GundoToggle<CR>
+
+"let g:clang_use_library = 1
+"let g:clang_library_path = '/usr/local/Cellar/llvm/2.9/lib'
+"let g:clang_use_snipmate = 1
+"let g:clang_complete_auto = 1
+"let g:clang_complete_copen = 0
+"let g:clang_hl_errors = 0
+"let g:clang_snippets = 0
