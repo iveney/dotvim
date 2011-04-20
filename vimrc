@@ -178,6 +178,7 @@ nmap <M-~> :hide bprev<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+"Call ctags to generate tags for c++ source files
 map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 "Fast reloading of the .vimrc
