@@ -9,7 +9,7 @@
 	url = https://github.com/vim-scripts/snipMate.git
 [submodule "bundle/LaTeX-Suite"]
 	path = bundle/LaTeX-Suite
-	url = https://github.com/vim-scripts/LaTeX-Suite-aka-Vim-LaTeX.git
+	url = https://iveney@github.com/iveney/LaTeX-Suite-aka-Vim-LaTeX.git
 [submodule "bundle/NERDTree"]
 	path = bundle/NERDTree
 	url = https://github.com/scrooloose/nerdtree.git
