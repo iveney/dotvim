@@ -6,10 +6,10 @@
 	url = https://github.com/vim-scripts/Tabular.git
 [submodule "bundle/snipMate"]
 	path = bundle/snipMate
-	url = https://github.com/vim-scripts/snipMate.git
+	url = git@github.com:iveney/snipMate.git
 [submodule "bundle/LaTeX-Suite"]
 	path = bundle/LaTeX-Suite
-	url = https://iveney@github.com/iveney/LaTeX-Suite-aka-Vim-LaTeX.git
+	url = git@github.com:iveney/LaTeX-Suite-aka-Vim-LaTeX.git
 [submodule "bundle/NERDTree"]
 	path = bundle/NERDTree
 	url = https://github.com/scrooloose/nerdtree.git
@@ -33,7 +33,7 @@
 	url = https://github.com/mileszs/ack.vim.git
 [submodule "bundle/google.vim"]
 	path = bundle/google.vim
-	url = https://github.com/vim-scripts/google.vim.git
+	url = git@github.com:iveney/google.vim.git
 [submodule "bundle/vim-preview"]
 	path = bundle/vim-preview
 	url = https://github.com/greyblake/vim-preview.git
