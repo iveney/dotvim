@@ -265,3 +265,18 @@ map <F5> :GundoToggle<CR>
 "let g:clang_complete_copen = 0
 "let g:clang_hl_errors = 0
 "let g:clang_snippets = 0
+"
+function! ConqueMan()
+   let cmd = &keywordprg . ' '
+   if cmd ==# 'man ' || cmd ==# 'man -s '
+       if v:count > 0
+           let cmd .= v:count . ' '
+       else
+           let cmd = 'man '
+       endif
+   endif
+   let cmd .= expand('<cword>')
+   execute 'ConqueTermSplit' cmd
+endfunction
+map K :<C-U>call ConqueMan()<CR>
+ounmap K

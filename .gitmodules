@@ -43,3 +43,6 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-conque"]
+	path = bundle/vim-conque
+	url = https://github.com/rygwdn/vim-conque.git
