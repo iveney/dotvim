@@ -1,6 +1,6 @@
 Installation:
 
-    git clone git://github.com/nelstrom/dotvim.git ~/.vim
+    git clone git://github.com/iveney/dotvim.git ~/.vim
 
 Create symlinks:
 
@@ -13,5 +13,11 @@ Switch to the `~/.vim` directory, and fetch submodules:
     git submodule init
     git submodule update
 
-Add a submodue
+Add a submodule
     git submodule add http://path/to/script bundle/script_name
+
+Deleting a submodule (http://stackoverflow.com/questions/1260748/how-do-i-remove-a-git-submodule)
+- Delete the relevant section from the .gitmodules file.
+- Delete the relevant section from .git/config.
+- Run git rm --cached path_to_submodule (no trailing slash).
+- Commit and delete the now untracked submodule files.
